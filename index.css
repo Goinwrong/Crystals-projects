@@ -14,12 +14,12 @@
 
 @keyframes mymove {
   0% {
-    transform: translateZ(80%);
+    transform: translateY(80%);
   }
   50% {
-    transform: translateZ(20%);
+    transform: translateY(20%);
   }
   100% {
-    transform: translateZ(80%);
+    transform: translateY(80%);
   }
 }
