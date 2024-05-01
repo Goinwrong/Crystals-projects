@@ -6,13 +6,13 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 
-  animation-name: bounce;
+  animation-name: slide;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 
-@keyframes bounce {
+@keyframes slide {
   0% {
     transform: translateZ(80%);
   }
