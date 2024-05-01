@@ -2,7 +2,7 @@
 .square {
   width: 100px;
   height: 100px;
-  background-color: purple;
+  background-color: red;
 
   /* Center the element */
   position: absolute;
