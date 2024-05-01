@@ -3,12 +3,27 @@
   width: 200px;
   height: 200px;
   background-color: red;
+  
 
   /* Center the element */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  /* animate element */
+  @keyframes bounce {
+  0% {
+    top: 90%;
+  }
+  50% {
+    top: 10%;
+  }
+  100% {
+    top: 90%;
+  }
+}
+
 }
 
 @keyframes bounce {
@@ -20,10 +35,4 @@
   }
 }
 
-
-.square {
-  . . .
-  animation-name: bounce;
-  animation-duration: 2s;
-}
 
