@@ -10,3 +10,20 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@keyframes bounce {
+  0% {
+    top: 90%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+
+
+.square {
+  . . .
+  animation-name: bounce;
+  animation-duration: 2s;
+}
+
